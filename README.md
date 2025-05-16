@@ -84,5 +84,6 @@ python AI.py
 * `datetime`, `threading`, `os`, `shutil` – tiện ích hệ thống
 
 * **Dataset train CNN và model CNN sau khi train**: https://drive.google.com/drive/folders/1QiPsXnnLoVO1Rqe-FxU_isjVze4dCiTL?usp=sharing
+
 Mọi góp ý và thắc mắc, vui lòng mở issue trên GitHub hoặc liên hệ tác giả dự án.
 
