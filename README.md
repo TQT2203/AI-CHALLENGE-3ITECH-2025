@@ -32,7 +32,7 @@ Dự án này xây dựng một ứng dụng **desktop** bằng Python với gia
 3. **Chuẩn bị mô hình và font chữ**
 
    * Đặt file `yolov8n.pt` vào thư mục gốc.
-   * Đặt file CNN Keras (.keras hoặc .h5) và điều chỉnh `CNN_MODEL_PATH` trong `new7.py` nếu cần.
+   * Đặt file CNN Keras (.keras hoặc .h5) và điều chỉnh `CNN_MODEL_PATH` trong `AI.py` nếu cần.
    * Cập nhật `FONT_PATH` trỏ đến font TTF hỗ trợ tiếng Việt (ví dụ: `C:\Windows\Fonts\arial.ttf`).
 
 ## 🚀 Hướng dẫn sử dụng
@@ -40,7 +40,7 @@ Dự án này xây dựng một ứng dụng **desktop** bằng Python với gia
 1. **Chạy ứng dụng**
 
 ```bash
-python new7.py
+python AI.py
 ```
 
 2. **Trong giao diện**:
@@ -67,7 +67,7 @@ python new7.py
 ├── detected_items/      # Ảnh cắt ra từ YOLO (bát/chén chứa món)
 ├── annotated_items/     # Ảnh đã vẽ nhãn tên món và giá
 ├── invoice.txt          # File hóa đơn xuất ra
-├── new7.py              # Main script ứng dụng
+├── AI.py                # Main script ứng dụng
 ├── requirements.txt     # Các thư viện cần cài
 ├── yolov8n.pt           # Mô hình YOLOv8 (nano)
 └── best_model.keras     # Mô hình CNN nhận dạng món ăn
